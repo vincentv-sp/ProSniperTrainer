@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE3400F0141DDE160049C118 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3400EF141DDE160049C118 /* UIKit.framework */; };
+		AE3400F2141DDE160049C118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3400F1141DDE160049C118 /* Foundation.framework */; };
+		AE3400F4141DDE160049C118 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3400F3141DDE160049C118 /* CoreGraphics.framework */; };
+		AE3400FA141DDE160049C118 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE3400F8141DDE160049C118 /* InfoPlist.strings */; };
+		AE3400FD141DDE160049C118 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3400FC141DDE160049C118 /* main.m */; };
+		AE340100141DDE160049C118 /* ProSniperTrainerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3400FF141DDE160049C118 /* ProSniperTrainerAppDelegate.m */; };
+		AE340103141DDE160049C118 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE340101141DDE160049C118 /* MainWindow.xib */; };
+		AE340106141DDE160049C118 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE340105141DDE160049C118 /* RootViewController.m */; };
+		AE340109141DDE160049C118 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE340107141DDE160049C118 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE3400EB141DDE160049C118 /* ProSniperTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProSniperTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3400EF141DDE160049C118 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE3400F1141DDE160049C118 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE3400F3141DDE160049C118 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE3400F7141DDE160049C118 /* ProSniperTrainer-Info.plist */ = {isa = PBXFileReference; path = "ProSniperTrainer-Info.plist"; sourceTree = "<group>"; };
+		AE3400F9141DDE160049C118 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE3400FB141DDE160049C118 /* ProSniperTrainer-Prefix.pch */ = {isa = PBXFileReference; path = "ProSniperTrainer-Prefix.pch"; sourceTree = "<group>"; };
+		AE3400FC141DDE160049C118 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE3400FE141DDE160049C118 /* ProSniperTrainerAppDelegate.h */ = {isa = PBXFileReference; path = ProSniperTrainerAppDelegate.h; sourceTree = "<group>"; };
+		AE3400FF141DDE160049C118 /* ProSniperTrainerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProSniperTrainerAppDelegate.m; sourceTree = "<group>"; };
+		AE340102141DDE160049C118 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		AE340104141DDE160049C118 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		AE340105141DDE160049C118 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		AE340108141DDE160049C118 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE3400E8141DDE160049C118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3400F0141DDE160049C118 /* UIKit.framework in Frameworks */,
+				AE3400F2141DDE160049C118 /* Foundation.framework in Frameworks */,
+				AE3400F4141DDE160049C118 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE3400E0141DDE160049C118 = {
+			isa = PBXGroup;
+			children = (
+				AE3400F5141DDE160049C118 /* ProSniperTrainer */,
+				AE3400EE141DDE160049C118 /* Frameworks */,
+				AE3400EC141DDE160049C118 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE3400EC141DDE160049C118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE3400EB141DDE160049C118 /* ProSniperTrainer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE3400EE141DDE160049C118 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE3400EF141DDE160049C118 /* UIKit.framework */,
+				AE3400F1141DDE160049C118 /* Foundation.framework */,
+				AE3400F3141DDE160049C118 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE3400F5141DDE160049C118 /* ProSniperTrainer */ = {
+			isa = PBXGroup;
+			children = (
+				AE3400FE141DDE160049C118 /* ProSniperTrainerAppDelegate.h */,
+				AE3400FF141DDE160049C118 /* ProSniperTrainerAppDelegate.m */,
+				AE340101141DDE160049C118 /* MainWindow.xib */,
+				AE340104141DDE160049C118 /* RootViewController.h */,
+				AE340105141DDE160049C118 /* RootViewController.m */,
+				AE340107141DDE160049C118 /* RootViewController.xib */,
+				AE3400F6141DDE160049C118 /* Supporting Files */,
+			);
+			path = ProSniperTrainer;
+			sourceTree = "<group>";
+		};
+		AE3400F6141DDE160049C118 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE3400F7141DDE160049C118 /* ProSniperTrainer-Info.plist */,
+				AE3400F8141DDE160049C118 /* InfoPlist.strings */,
+				AE3400FB141DDE160049C118 /* ProSniperTrainer-Prefix.pch */,
+				AE3400FC141DDE160049C118 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE3400EA141DDE160049C118 /* ProSniperTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE34010C141DDE160049C118 /* Build configuration list for PBXNativeTarget "ProSniperTrainer" */;
+			buildPhases = (
+				AE3400E7141DDE160049C118 /* Sources */,
+				AE3400E8141DDE160049C118 /* Frameworks */,
+				AE3400E9141DDE160049C118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProSniperTrainer;
+			productName = ProSniperTrainer;
+			productReference = AE3400EB141DDE160049C118 /* ProSniperTrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE3400E2141DDE160049C118 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AE3400E5141DDE160049C118 /* Build configuration list for PBXProject "ProSniperTrainer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE3400E0141DDE160049C118;
+			productRefGroup = AE3400EC141DDE160049C118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE3400EA141DDE160049C118 /* ProSniperTrainer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE3400E9141DDE160049C118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3400FA141DDE160049C118 /* InfoPlist.strings in Resources */,
+				AE340103141DDE160049C118 /* MainWindow.xib in Resources */,
+				AE340109141DDE160049C118 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE3400E7141DDE160049C118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3400FD141DDE160049C118 /* main.m in Sources */,
+				AE340100141DDE160049C118 /* ProSniperTrainerAppDelegate.m in Sources */,
+				AE340106141DDE160049C118 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE3400F8141DDE160049C118 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE3400F9141DDE160049C118 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE340101141DDE160049C118 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE340102141DDE160049C118 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		AE340107141DDE160049C118 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE340108141DDE160049C118 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE34010A141DDE160049C118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE34010B141DDE160049C118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AE34010D141DDE160049C118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProSniperTrainer/ProSniperTrainer-Prefix.pch";
+				INFOPLIST_FILE = "ProSniperTrainer/ProSniperTrainer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE34010E141DDE160049C118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProSniperTrainer/ProSniperTrainer-Prefix.pch";
+				INFOPLIST_FILE = "ProSniperTrainer/ProSniperTrainer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE3400E5141DDE160049C118 /* Build configuration list for PBXProject "ProSniperTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE34010A141DDE160049C118 /* Debug */,
+				AE34010B141DDE160049C118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE34010C141DDE160049C118 /* Build configuration list for PBXNativeTarget "ProSniperTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE34010D141DDE160049C118 /* Debug */,
+				AE34010E141DDE160049C118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE3400E2141DDE160049C118 /* Project object */;
+}
