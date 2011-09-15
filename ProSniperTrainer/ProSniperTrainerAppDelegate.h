@@ -7,13 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SniperLandingViewController.h"
+
+//@class SniperLandingViewController;
 
 @interface ProSniperTrainerAppDelegate : NSObject <UIApplicationDelegate> {
-
+    SniperLandingViewController *sniperLandingVC;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-
 @property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
 
 @end

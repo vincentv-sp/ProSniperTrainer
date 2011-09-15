@@ -1,5 +1,5 @@
 //
-//  RootViewController.h
+//  SniperSettingsViewController.h
 //  ProSniperTrainer
 //
 //  Created by Nikki Fernandez on 9/12/11.
@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UITableViewController {
 
+@interface SniperSettingsViewController : UIViewController {
+    
 }
-
 
 @end

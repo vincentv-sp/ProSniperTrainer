@@ -19,8 +19,16 @@
 {
     // Override point for customization after application launch.
     // Add the navigation controller's view to the window and display.
-    self.window.rootViewController = self.navigationController;
+    //self.window.rootViewController = self.navigationController;
+    
+    self.navigationController.navigationBar.tintColor = [UIColor darkGrayColor];
+    
     [self.window makeKeyAndVisible];
+    sniperLandingVC = [[SniperLandingViewController alloc] initWithNibName:@"SniperLandingViewController" bundle:nil];
+    [self.navigationController pushViewController: sniperLandingVC animated:NO];
+
+    [self.window addSubview:[self.navigationController view]];
+     
     return YES;
 }
 

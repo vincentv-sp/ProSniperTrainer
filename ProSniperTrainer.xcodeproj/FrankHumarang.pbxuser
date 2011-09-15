@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	AE3400E2141DDE160049C118 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = AEFCB8C8142093BD00493F02 /* ProSniperTrainer */;
+		activeTarget = AE3400EA141DDE160049C118 /* ProSniperTrainer */;
+		codeSenseManager = AEFCB8E2142093C000493F02 /* Code sense */;
+		executables = (
+			AEFCB8C8142093BD00493F02 /* ProSniperTrainer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					364,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 337679293;
+			PBXWorkspaceStateSaveDate = 337679293;
+		};
+		sourceControlManager = AEFCB8E1142093C000493F02 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	AE3400EA141DDE160049C118 /* ProSniperTrainer */ = {
+		activeExec = 0;
+		executables = (
+			AEFCB8C8142093BD00493F02 /* ProSniperTrainer */,
+		);
+	};
+	AEFCB8C8142093BD00493F02 /* ProSniperTrainer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ProSniperTrainer;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	AEFCB8E1142093C000493F02 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	AEFCB8E2142093C000493F02 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

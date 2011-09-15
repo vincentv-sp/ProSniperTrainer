@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		174623E31420A6C100569D94 /* meter_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 174623DF1420A6C100569D94 /* meter_blank.png */; };
+		174623E41420A6C100569D94 /* meter_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 174623E01420A6C100569D94 /* meter_green.png */; };
+		174623E51420A6C100569D94 /* meter_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 174623E11420A6C100569D94 /* meter_red.png */; };
+		174623E61420A6C100569D94 /* meter_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 174623E21420A6C100569D94 /* meter_yellow.png */; };
+		174623EB1420A99500569D94 /* MeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 174623EA1420A99500569D94 /* MeterView.m */; };
+		174623FD1420CA8B00569D94 /* carbon_fiber.png in Resources */ = {isa = PBXBuildFile; fileRef = 174623FC1420CA8B00569D94 /* carbon_fiber.png */; };
+		AE20BCB6141DEB1A006A3D76 /* btn-weapon.png in Resources */ = {isa = PBXBuildFile; fileRef = AE20BCB2141DEB1A006A3D76 /* btn-weapon.png */; };
+		AE20BCBD141DED74006A3D76 /* btn-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = AE20BCBB141DED74006A3D76 /* btn-settings.png */; };
+		AE20BCC0141DEDFB006A3D76 /* btn-sound.png in Resources */ = {isa = PBXBuildFile; fileRef = AE20BCBF141DEDFB006A3D76 /* btn-sound.png */; };
+		AE20BCC2141DEE67006A3D76 /* btn-sniper.png in Resources */ = {isa = PBXBuildFile; fileRef = AE20BCC1141DEE67006A3D76 /* btn-sniper.png */; };
+		AE20BCC5141DF493006A3D76 /* reticle-green.png in Resources */ = {isa = PBXBuildFile; fileRef = AE20BCC3141DF493006A3D76 /* reticle-green.png */; };
+		AE20BCC6141DF493006A3D76 /* reticle-red.png in Resources */ = {isa = PBXBuildFile; fileRef = AE20BCC4141DF493006A3D76 /* reticle-red.png */; };
+		AE20BCC9141DFB58006A3D76 /* launchpage.png in Resources */ = {isa = PBXBuildFile; fileRef = AE20BCC8141DFB58006A3D76 /* launchpage.png */; };
+		AE20BCCB141DFBAA006A3D76 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AE20BCCA141DFBAA006A3D76 /* Default.png */; };
+		AE20BCD1141E04C2006A3D76 /* weapon-sniper.png in Resources */ = {isa = PBXBuildFile; fileRef = AE20BCD0141E04C2006A3D76 /* weapon-sniper.png */; };
+		AE20BCD6141E09B3006A3D76 /* ShotMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE20BCD4141E09B3006A3D76 /* ShotMapViewController.m */; };
+		AE20BCD7141E09B3006A3D76 /* ShotMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE20BCD5141E09B3006A3D76 /* ShotMapViewController.xib */; };
+		AE20BCD9141E14EC006A3D76 /* btn-shotmap.png in Resources */ = {isa = PBXBuildFile; fileRef = AE20BCD8141E14EC006A3D76 /* btn-shotmap.png */; };
+		AE20BCDC141E1716006A3D76 /* shotmap-1.png in Resources */ = {isa = PBXBuildFile; fileRef = AE20BCDA141E1716006A3D76 /* shotmap-1.png */; };
+		AE20BCDD141E1716006A3D76 /* shotmap-2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE20BCDB141E1716006A3D76 /* shotmap-2.png */; };
+		AE20BCE2141E1BEB006A3D76 /* SniperSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE20BCE0141E1BEB006A3D76 /* SniperSettingsViewController.m */; };
+		AE20BCE3141E1BEB006A3D76 /* SniperSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE20BCE1141E1BEB006A3D76 /* SniperSettingsViewController.xib */; };
+		AE20BCE5141E50C2006A3D76 /* btn-addround.png in Resources */ = {isa = PBXBuildFile; fileRef = AE20BCE4141E50C2006A3D76 /* btn-addround.png */; };
+		AE20BCE7141E51A9006A3D76 /* btn-deleteround.png in Resources */ = {isa = PBXBuildFile; fileRef = AE20BCE6141E51A9006A3D76 /* btn-deleteround.png */; };
 		AE3400F0141DDE160049C118 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3400EF141DDE160049C118 /* UIKit.framework */; };
 		AE3400F2141DDE160049C118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3400F1141DDE160049C118 /* Foundation.framework */; };
 		AE3400F4141DDE160049C118 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3400F3141DDE160049C118 /* CoreGraphics.framework */; };
@@ -14,25 +38,56 @@
 		AE3400FD141DDE160049C118 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3400FC141DDE160049C118 /* main.m */; };
 		AE340100141DDE160049C118 /* ProSniperTrainerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3400FF141DDE160049C118 /* ProSniperTrainerAppDelegate.m */; };
 		AE340103141DDE160049C118 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE340101141DDE160049C118 /* MainWindow.xib */; };
-		AE340106141DDE160049C118 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE340105141DDE160049C118 /* RootViewController.m */; };
-		AE340109141DDE160049C118 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE340107141DDE160049C118 /* RootViewController.xib */; };
+		AE340112141DDF6C0049C118 /* SniperLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE340110141DDF6C0049C118 /* SniperLandingViewController.m */; };
+		AE340113141DDF6C0049C118 /* SniperLandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE340111141DDF6C0049C118 /* SniperLandingViewController.xib */; };
+		AED345BB14208FAA00A98AAC /* weapon-rifle.png in Resources */ = {isa = PBXBuildFile; fileRef = AED345BA14208FAA00A98AAC /* weapon-rifle.png */; };
+		E89F001B141F54A6000F990E /* weapon-pistol.png in Resources */ = {isa = PBXBuildFile; fileRef = E89F0019141F54A6000F990E /* weapon-pistol.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		174623DF1420A6C100569D94 /* meter_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meter_blank.png; sourceTree = "<group>"; };
+		174623E01420A6C100569D94 /* meter_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meter_green.png; sourceTree = "<group>"; };
+		174623E11420A6C100569D94 /* meter_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meter_red.png; sourceTree = "<group>"; };
+		174623E21420A6C100569D94 /* meter_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meter_yellow.png; sourceTree = "<group>"; };
+		174623E91420A99500569D94 /* MeterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeterView.h; sourceTree = "<group>"; };
+		174623EA1420A99500569D94 /* MeterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeterView.m; sourceTree = "<group>"; };
+		174623FC1420CA8B00569D94 /* carbon_fiber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carbon_fiber.png; sourceTree = "<group>"; };
+		AE20BCB2141DEB1A006A3D76 /* btn-weapon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-weapon.png"; sourceTree = "<group>"; };
+		AE20BCBB141DED74006A3D76 /* btn-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-settings.png"; sourceTree = "<group>"; };
+		AE20BCBF141DEDFB006A3D76 /* btn-sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-sound.png"; sourceTree = "<group>"; };
+		AE20BCC1141DEE67006A3D76 /* btn-sniper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-sniper.png"; sourceTree = "<group>"; };
+		AE20BCC3141DF493006A3D76 /* reticle-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reticle-green.png"; sourceTree = "<group>"; };
+		AE20BCC4141DF493006A3D76 /* reticle-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reticle-red.png"; sourceTree = "<group>"; };
+		AE20BCC8141DFB58006A3D76 /* launchpage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchpage.png; sourceTree = "<group>"; };
+		AE20BCCA141DFBAA006A3D76 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AE20BCD0141E04C2006A3D76 /* weapon-sniper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weapon-sniper.png"; sourceTree = "<group>"; };
+		AE20BCD3141E09B3006A3D76 /* ShotMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShotMapViewController.h; sourceTree = "<group>"; };
+		AE20BCD4141E09B3006A3D76 /* ShotMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShotMapViewController.m; sourceTree = "<group>"; };
+		AE20BCD5141E09B3006A3D76 /* ShotMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShotMapViewController.xib; sourceTree = "<group>"; };
+		AE20BCD8141E14EC006A3D76 /* btn-shotmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-shotmap.png"; sourceTree = "<group>"; };
+		AE20BCDA141E1716006A3D76 /* shotmap-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shotmap-1.png"; sourceTree = "<group>"; };
+		AE20BCDB141E1716006A3D76 /* shotmap-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shotmap-2.png"; sourceTree = "<group>"; };
+		AE20BCDF141E1BEB006A3D76 /* SniperSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SniperSettingsViewController.h; sourceTree = "<group>"; };
+		AE20BCE0141E1BEB006A3D76 /* SniperSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SniperSettingsViewController.m; sourceTree = "<group>"; };
+		AE20BCE1141E1BEB006A3D76 /* SniperSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SniperSettingsViewController.xib; sourceTree = "<group>"; };
+		AE20BCE4141E50C2006A3D76 /* btn-addround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-addround.png"; sourceTree = "<group>"; };
+		AE20BCE6141E51A9006A3D76 /* btn-deleteround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-deleteround.png"; sourceTree = "<group>"; };
 		AE3400EB141DDE160049C118 /* ProSniperTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProSniperTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3400EF141DDE160049C118 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AE3400F1141DDE160049C118 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AE3400F3141DDE160049C118 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AE3400F7141DDE160049C118 /* ProSniperTrainer-Info.plist */ = {isa = PBXFileReference; path = "ProSniperTrainer-Info.plist"; sourceTree = "<group>"; };
+		AE3400F7141DDE160049C118 /* ProSniperTrainer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProSniperTrainer-Info.plist"; sourceTree = "<group>"; };
 		AE3400F9141DDE160049C118 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AE3400FB141DDE160049C118 /* ProSniperTrainer-Prefix.pch */ = {isa = PBXFileReference; path = "ProSniperTrainer-Prefix.pch"; sourceTree = "<group>"; };
+		AE3400FB141DDE160049C118 /* ProSniperTrainer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProSniperTrainer-Prefix.pch"; sourceTree = "<group>"; };
 		AE3400FC141DDE160049C118 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AE3400FE141DDE160049C118 /* ProSniperTrainerAppDelegate.h */ = {isa = PBXFileReference; path = ProSniperTrainerAppDelegate.h; sourceTree = "<group>"; };
+		AE3400FE141DDE160049C118 /* ProSniperTrainerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProSniperTrainerAppDelegate.h; sourceTree = "<group>"; };
 		AE3400FF141DDE160049C118 /* ProSniperTrainerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProSniperTrainerAppDelegate.m; sourceTree = "<group>"; };
 		AE340102141DDE160049C118 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		AE340104141DDE160049C118 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
-		AE340105141DDE160049C118 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		AE340108141DDE160049C118 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		AE34010F141DDF6C0049C118 /* SniperLandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SniperLandingViewController.h; sourceTree = "<group>"; };
+		AE340110141DDF6C0049C118 /* SniperLandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SniperLandingViewController.m; sourceTree = "<group>"; };
+		AE340111141DDF6C0049C118 /* SniperLandingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SniperLandingViewController.xib; sourceTree = "<group>"; };
+		AED345BA14208FAA00A98AAC /* weapon-rifle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weapon-rifle.png"; sourceTree = "<group>"; };
+		E89F0019141F54A6000F990E /* weapon-pistol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weapon-pistol.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,9 +104,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		174623E81420A96300569D94 /* SensorMeter */ = {
+			isa = PBXGroup;
+			children = (
+				174623E91420A99500569D94 /* MeterView.h */,
+				174623EA1420A99500569D94 /* MeterView.m */,
+			);
+			name = SensorMeter;
+			sourceTree = "<group>";
+		};
+		AE20BCAE141DEB03006A3D76 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				174623FC1420CA8B00569D94 /* carbon_fiber.png */,
+				174623DF1420A6C100569D94 /* meter_blank.png */,
+				174623E01420A6C100569D94 /* meter_green.png */,
+				174623E11420A6C100569D94 /* meter_red.png */,
+				174623E21420A6C100569D94 /* meter_yellow.png */,
+				AED345BA14208FAA00A98AAC /* weapon-rifle.png */,
+				E89F0019141F54A6000F990E /* weapon-pistol.png */,
+				AE20BCD0141E04C2006A3D76 /* weapon-sniper.png */,
+				AE20BCE6141E51A9006A3D76 /* btn-deleteround.png */,
+				AE20BCE4141E50C2006A3D76 /* btn-addround.png */,
+				AE20BCDA141E1716006A3D76 /* shotmap-1.png */,
+				AE20BCDB141E1716006A3D76 /* shotmap-2.png */,
+				AE20BCC8141DFB58006A3D76 /* launchpage.png */,
+				AE20BCC3141DF493006A3D76 /* reticle-green.png */,
+				AE20BCC4141DF493006A3D76 /* reticle-red.png */,
+				AE20BCC1141DEE67006A3D76 /* btn-sniper.png */,
+				AE20BCBF141DEDFB006A3D76 /* btn-sound.png */,
+				AE20BCBB141DED74006A3D76 /* btn-settings.png */,
+				AE20BCD8141E14EC006A3D76 /* btn-shotmap.png */,
+				AE20BCB2141DEB1A006A3D76 /* btn-weapon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		AE20BCC7141DF50B006A3D76 /* SniperLanding */ = {
+			isa = PBXGroup;
+			children = (
+				AE34010F141DDF6C0049C118 /* SniperLandingViewController.h */,
+				AE340110141DDF6C0049C118 /* SniperLandingViewController.m */,
+				AE340111141DDF6C0049C118 /* SniperLandingViewController.xib */,
+			);
+			name = SniperLanding;
+			sourceTree = "<group>";
+		};
+		AE20BCD2141E098F006A3D76 /* ShotMap */ = {
+			isa = PBXGroup;
+			children = (
+				AE20BCD3141E09B3006A3D76 /* ShotMapViewController.h */,
+				AE20BCD4141E09B3006A3D76 /* ShotMapViewController.m */,
+				AE20BCD5141E09B3006A3D76 /* ShotMapViewController.xib */,
+			);
+			name = ShotMap;
+			sourceTree = "<group>";
+		};
+		AE20BCDE141E1BC8006A3D76 /* Sniper-Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AE20BCDF141E1BEB006A3D76 /* SniperSettingsViewController.h */,
+				AE20BCE0141E1BEB006A3D76 /* SniperSettingsViewController.m */,
+				AE20BCE1141E1BEB006A3D76 /* SniperSettingsViewController.xib */,
+			);
+			name = "Sniper-Settings";
+			sourceTree = "<group>";
+		};
 		AE3400E0141DDE160049C118 = {
 			isa = PBXGroup;
 			children = (
+				AE20BCCA141DFBAA006A3D76 /* Default.png */,
 				AE3400F5141DDE160049C118 /* ProSniperTrainer */,
 				AE3400EE141DDE160049C118 /* Frameworks */,
 				AE3400EC141DDE160049C118 /* Products */,
@@ -79,12 +201,14 @@
 		AE3400F5141DDE160049C118 /* ProSniperTrainer */ = {
 			isa = PBXGroup;
 			children = (
+				174623E81420A96300569D94 /* SensorMeter */,
+				AE20BCD2141E098F006A3D76 /* ShotMap */,
+				AE20BCC7141DF50B006A3D76 /* SniperLanding */,
+				AE20BCDE141E1BC8006A3D76 /* Sniper-Settings */,
+				AE20BCAE141DEB03006A3D76 /* Images */,
 				AE3400FE141DDE160049C118 /* ProSniperTrainerAppDelegate.h */,
 				AE3400FF141DDE160049C118 /* ProSniperTrainerAppDelegate.m */,
 				AE340101141DDE160049C118 /* MainWindow.xib */,
-				AE340104141DDE160049C118 /* RootViewController.h */,
-				AE340105141DDE160049C118 /* RootViewController.m */,
-				AE340107141DDE160049C118 /* RootViewController.xib */,
 				AE3400F6141DDE160049C118 /* Supporting Files */,
 			);
 			path = ProSniperTrainer;
@@ -150,7 +274,30 @@
 			files = (
 				AE3400FA141DDE160049C118 /* InfoPlist.strings in Resources */,
 				AE340103141DDE160049C118 /* MainWindow.xib in Resources */,
-				AE340109141DDE160049C118 /* RootViewController.xib in Resources */,
+				AE340113141DDF6C0049C118 /* SniperLandingViewController.xib in Resources */,
+				AE20BCB6141DEB1A006A3D76 /* btn-weapon.png in Resources */,
+				AE20BCBD141DED74006A3D76 /* btn-settings.png in Resources */,
+				AE20BCC0141DEDFB006A3D76 /* btn-sound.png in Resources */,
+				AE20BCC2141DEE67006A3D76 /* btn-sniper.png in Resources */,
+				AE20BCC5141DF493006A3D76 /* reticle-green.png in Resources */,
+				AE20BCC6141DF493006A3D76 /* reticle-red.png in Resources */,
+				AE20BCC9141DFB58006A3D76 /* launchpage.png in Resources */,
+				AE20BCCB141DFBAA006A3D76 /* Default.png in Resources */,
+				AE20BCD1141E04C2006A3D76 /* weapon-sniper.png in Resources */,
+				AE20BCD7141E09B3006A3D76 /* ShotMapViewController.xib in Resources */,
+				AE20BCD9141E14EC006A3D76 /* btn-shotmap.png in Resources */,
+				AE20BCDC141E1716006A3D76 /* shotmap-1.png in Resources */,
+				AE20BCDD141E1716006A3D76 /* shotmap-2.png in Resources */,
+				AE20BCE3141E1BEB006A3D76 /* SniperSettingsViewController.xib in Resources */,
+				AE20BCE5141E50C2006A3D76 /* btn-addround.png in Resources */,
+				AE20BCE7141E51A9006A3D76 /* btn-deleteround.png in Resources */,
+				E89F001B141F54A6000F990E /* weapon-pistol.png in Resources */,
+				AED345BB14208FAA00A98AAC /* weapon-rifle.png in Resources */,
+				174623E31420A6C100569D94 /* meter_blank.png in Resources */,
+				174623E41420A6C100569D94 /* meter_green.png in Resources */,
+				174623E51420A6C100569D94 /* meter_red.png in Resources */,
+				174623E61420A6C100569D94 /* meter_yellow.png in Resources */,
+				174623FD1420CA8B00569D94 /* carbon_fiber.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +310,10 @@
 			files = (
 				AE3400FD141DDE160049C118 /* main.m in Sources */,
 				AE340100141DDE160049C118 /* ProSniperTrainerAppDelegate.m in Sources */,
-				AE340106141DDE160049C118 /* RootViewController.m in Sources */,
+				AE340112141DDF6C0049C118 /* SniperLandingViewController.m in Sources */,
+				AE20BCD6141E09B3006A3D76 /* ShotMapViewController.m in Sources */,
+				AE20BCE2141E1BEB006A3D76 /* SniperSettingsViewController.m in Sources */,
+				174623EB1420A99500569D94 /* MeterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,14 +334,6 @@
 				AE340102141DDE160049C118 /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		AE340107141DDE160049C118 /* RootViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE340108141DDE160049C118 /* en */,
-			);
-			name = RootViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -233,12 +375,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProSniperTrainer/ProSniperTrainer-Prefix.pch";
 				INFOPLIST_FILE = "ProSniperTrainer/ProSniperTrainer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -247,11 +391,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProSniperTrainer/ProSniperTrainer-Prefix.pch";
 				INFOPLIST_FILE = "ProSniperTrainer/ProSniperTrainer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -276,6 +422,7 @@
 				AE34010E141DDE160049C118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
